@@ -56,7 +56,6 @@ cd SpiritX_TetraBytes_01
 ### Step 2️⃣: Setup and Install Dependencies
 #### 2.1 Backend Setup:
 ```
-cd server
 npm install
 npm run dev
 ```
