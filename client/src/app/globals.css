@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+:root {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+
+body {
+  background-color: #f7fafc; /* equivalent to bg-gray-100 */
+  display: flex; /* equivalent to flex */
+  justify-content: center; /* equivalent to justify-center */
+  align-items: center; /* equivalent to items-center */
+  height: 100vh; /* equivalent to h-screen */
+}
